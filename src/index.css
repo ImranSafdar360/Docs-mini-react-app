@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection{
+    color: rgb(250, 227, 23);
+}
+@font-face {
+    font-family: GilroyLight;
+    src: url(./public/gilroy-free/Gilroy-FREE/Gilroy-Light.otf);
+}
+@font-face {
+    font-family: GilroyBold;
+    src: url(./public/gilroy-free/Gilroy-FREE/Gilroy-ExtraBold.otf);
+}
+
+.G-light{
+    font-family: GilroyLight;
+    font-weight: 900;
+}
+.G-bold{
+    font-family: GilroyBold;
+    font-weight: 100;
+}
